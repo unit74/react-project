@@ -1,0 +1,14 @@
+DROP TABLE order_items;  
+DROP TABLE orders;
+DROP TABLE inventories;
+DROP TABLE products;
+DROP TABLE product_categories;
+DROP TABLE warehouses;
+DROP TABLE web_informations;
+DROP TABLE employees;
+DROP TABLE job_teams;
+DROP TABLE contacts;
+DROP TABLE customers;
+DROP TABLE locations;
+DROP TABLE countries;
+DROP TABLE regions;

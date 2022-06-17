@@ -1,0 +1,8 @@
+{
+  "short_name": "OT Company",
+  "name": "OT Company",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
