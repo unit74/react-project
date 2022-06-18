@@ -105,7 +105,7 @@ export default function Login() {
                             fullWidth
                             id='id'
                             name='id'
-                            label="Employee ID"
+                            label="WEB ID"
                             autoFocus
                             error={idError}
                         />
@@ -115,7 +115,7 @@ export default function Login() {
                             fullWidth
                             id='pw'
                             name='pw'
-                            label="Employee PW"
+                            label="WEB PW"
                             type="password"
                             error={pwError}
                         />

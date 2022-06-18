@@ -29,6 +29,10 @@ router.get("/", async function(req, res){
             }
         }
 
+        for(; idx < employees.length; idx++)
+            sendData.WEB_EMPLOYEE_ID.push({EMPLOYEE_ID: employees[idx].EMPLOYEE_ID});
+
+
         res.send(sendData);
     }
     catch(e) {

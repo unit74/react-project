@@ -43,7 +43,7 @@ export default function EditEmployee({open, setOpen, formLoading, setFormLoading
             setEmail(data.get('EMAIL'));
             setPhone(data.get('PHONE'));
             setHireDate(data.get('HIRE_DATE'));
-            setManagerId(data.get('MANAGER_ID') || '');
+            setManagerId(data.get('MANAGER_ID') || "");
             setJobTitle(data.get('JOB_TITLE'));
             setJobTeamId(data.get('JOB_TEAM_ID'));
 

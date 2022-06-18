@@ -35,7 +35,7 @@ export default function AddEmployee({open, setOpen, formLoading, setFormLoading,
     useEffect(() => {
         if(data) {
             setManagerIdMenu(data.get('EXIST_EMPLOYEES_ID'));
-            setEmployeeId(data.get('EMPTY_EMPLOYEE_ID'));
+            setEmployeeId(data.get('EMPTY_EMPLOYEE_ID') || "");
 
             setManagerId("");
             setJobTeamId("");
