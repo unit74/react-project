@@ -116,7 +116,7 @@ export default function EditWeb({open, setOpen, formLoading, setFormLoading, dat
                             onChange={(event) => {setWebAuthority(event.target.value)}}
                         >
                             <MenuItem value={"Approved"}>Approved</MenuItem>
-                            <MenuItem value={"Rest"}>Rest</MenuItem>
+                            <MenuItem value={"Denied"}>Denied</MenuItem>
                         </Select>
                     </FormControl>
                 </Grid>

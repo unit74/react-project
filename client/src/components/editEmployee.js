@@ -118,7 +118,7 @@ export default function EditEmployee({open, setOpen, formLoading, setFormLoading
         }).then((res) => {
             setLoading(false);
             setOpen(false);
-            navigate(location.pathname, { state: { isMsg: true, sendSvt: 'success', sendMsg: '추가되었습니다.', refresh: true }});
+            navigate(location.pathname, { state: { isMsg: true, sendSvt: 'success', sendMsg: '저장되었습니다.', refresh: true }});
         }).catch((e) => {
             setLoading(false);
             navigate(location.pathname, { state: { isMsg: true, sendSvt: 'error', sendMsg: e.message }});

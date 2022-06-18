@@ -17,7 +17,7 @@ router.post("/", async function(req, res){
         const webPw = req.body.webPw;
         const webAuthority = req.body.webAuthority;
 
-        let sql = `SELECT WEB_ID FROM WEB_INFORMATIONS WHERE WEB_ID = ${webId}`;
+        let sql = `SELECT WEB_ID FROM WEB_INFORMATIONS WHERE WEB_ID = '${webId}'`;
         const result = await connection.execute(sql);
 
         if(result.rows.length !== 0) {

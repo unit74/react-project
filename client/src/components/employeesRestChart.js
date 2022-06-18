@@ -10,7 +10,7 @@ let data = {
         borderWidth: 4
     }
   ],
-  labels: ['Approved', 'Rest']
+  labels: ['Approved', 'Denied']
 };
 
 let description = [
@@ -20,7 +20,7 @@ let description = [
       color: 'green'
   },
   {
-      title: 'Rest',
+      title: 'Denied',
       value: 0,
       color: 'red'
   }
